@@ -1,31 +1,30 @@
 ## DBug
 
-This is a laravel package that makes your variable dumps look nicer. The output is comparable to ColdFusion's cfdump.
-
-Based off of dBug class https://github.com/ospinto/dbug
-
-Update for Laravel 5.X
+**laravel-5-dbug** is a Laravel package that makes your variable dumps look nicer with the [ospintos dBug class](https://github.com/ospinto/dbug). The output is comparable to ColdFusion's cfdump. This repository is a fork from [dlcrush/laravel-dbug](https://github.com/dlcrush/laravel-dbug) with an update for Laravel 5 and a few minor fixes.
 
 ## Installation
 
 This will walk you through how to set up the package.
 
-1) Add the following to your composer.json under require:
+1. Add the following to your composer.json under require and then run `composer update`
 
-`"dlcrush/laravel-dbug": "~1.1.0"`
+`"dlcrush/laravel-dbug": "~1.*"`
 
-2) Composer update
+OR 
 
-3) Add the Service Provider to the providers array in `app/config/app.php`
+`composer require dlcrush/laravel-dbug`
+
+
+2 Add the Service Provider to the providers array in `app/config/app.php`
 
 ```php
-'dlcrush\DBug\DBugServiceProvider',
+dlcrush\DBug\DBugServiceProvider::class,
 ```
 
 4) Add alias in `app/config/app.php`
 
 ```php
-'DBug'			  => 'dlcrush\DBug\Facades\DBug',
+'DBug'			  => dlcrush\DBug\Facades\DBug::class,
 ```
 
 ### Usage
