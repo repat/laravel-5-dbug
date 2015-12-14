@@ -4,6 +4,8 @@ This is a laravel package that makes your variable dumps look nicer. The output 
 
 Based off of dBug class https://github.com/ospinto/dbug
 
+Update for Laravel 5.X
+
 ## Installation
 
 This will walk you through how to set up the package.
