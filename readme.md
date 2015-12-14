@@ -8,11 +8,11 @@ This will walk you through how to set up the package.
 
 1. Add the following to your composer.json under require and then run `composer update`
 
-`"dlcrush/laravel-dbug": "~1.*"`
+`"repat/laravel-5-dbug": "~1.*"`
 
 OR 
 
-`composer require dlcrush/laravel-dbug`
+`composer require repat/laravel-5-dbug`
 
 
 2 Add the Service Provider to the providers array in `app/config/app.php`
