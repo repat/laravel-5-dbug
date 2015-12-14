@@ -517,7 +517,7 @@ class DBug {
 				table.dBug_xml td.dBug_xmlHeader { background-color:#AAAAAA; }
 				table.dBug_xml td.dBug_xmlKey { background-color:#DDDDDD; }
 			</style>
-			SCRIPTS;
+SCRIPTS;
 		}
 
 	}
