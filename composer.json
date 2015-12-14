@@ -1,6 +1,7 @@
 {
     "name": "repat/laravel-5-dbug",
     "description": "A library for nicer looking variable dumps comparable to ColdFusion's cfdump.",
+    "license" : "GPL-2.0",
     "keywords": [
     	"laravel",
     	"debug",
